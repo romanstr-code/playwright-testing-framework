@@ -34,7 +34,7 @@ class LoginPage extends BasePage {
    * @param {string} password - The password to use
    * @returns {Promise<void>}
    */
-  async ligin(username, password){
+  async login(username, password){
     // Fill the username field
     await this.page.fill(this.usernameInput, username);
 
