@@ -100,9 +100,6 @@ Automated tests are implemented using Playwright and follow these principles:
 3. **Implement Automated Tests**: Create automated tests in the `tests` directory.
 4. **Update Test Mapping**: Document the relationship in `docs/test-mapping.md`.
 
-## Continuous Integration
-
-This framework can be integrated with CI/CD pipelines using GitHub Actions. A sample workflow is provided in `.github/workflows/playwright.yml`.
 
 ## Contributing
 
