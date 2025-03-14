@@ -1,6 +1,6 @@
 # Playwright Testing Framework
 
-This project demonstrates a comprehensive testing framework using Playwright for web automation testing.
+This project demonstrates a testing framework using Playwright for web automation testing.
 
 ## Project Structure
 
