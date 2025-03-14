@@ -4,22 +4,24 @@ This project demonstrates a testing framework using Playwright for web automatio
 
 ## Project Structure
 
-playwright-testing-framework/
-├── docs/                   # Documentation
-│   ├── manual-test-cases/  # Manual test cases
-│   └── test-mapping.md     # Mapping between manual and automated tests
-├── src/                    # Source code
-│   ├── pages/              # Page objects
-│   ├── helpers/            # Helper functions
-│   └── fixtures/           # Test fixtures
-├── tests/                  # Test files
-│   ├── api/                # API tests
-│   └── ui/                 # UI tests
-├── reports/                # Test reports
-├── .gitignore              # Git ignore file
-├── package.json            # NPM package file
-├── playwright.config.js    # Playwright configuration
-└── README.md               # Project documentation
+
+| Directory/File | Description |
+|----------------|-------------|
+| `docs/` | Documentation |
+| `docs/manual-test-cases/` | Manual test cases |
+| `docs/test-mapping.md` | Mapping between manual and automated tests |
+| `src/` | Source code |
+| `src/pages/` | Page objects |
+| `src/helpers/` | Helper functions |
+| `src/fixtures/` | Test fixtures |
+| `tests/` | Test files |
+| `tests/api/` | API tests |
+| `tests/ui/` | UI tests |
+| `reports/` | Test reports |
+| `.gitignore` | Git ignore file |
+| `package.json` | NPM package file |
+| `playwright.config.js` | Playwright configuration |
+| `README.md` | Project documentation |
 
 ## Setup
 
