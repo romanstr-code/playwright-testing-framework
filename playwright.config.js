@@ -31,6 +31,7 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['html'], 
+    ['json', { outputFile: 'test-results/test-results.json' }],
     ['list']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
@@ -39,9 +40,10 @@ export default defineConfig({
     baseURL: 'https://the-internet.herokuapp.com',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    trace: 'on-first-retry',
+    trace: process.env.CI ? 'on' : 'on-first-retry', // // Always collect traces on CI
     // Take screenshot on failure
     screenshot: 'only-on-failure',
+    video: process.env.CI ? 'on-first-retry' : 'off', // Record videos on CI for failing tests
   },
 
   /* Configure projects for major browsers */
